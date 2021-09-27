@@ -12,3 +12,32 @@
 ```
 implementation 'com.github.li-xiaojun:LiveGiftPlayer:版本号'
 ```
+
+# 使用
+1. 构造GiftPlayItem
+```kotlin
+data class GiftPlayItem(
+    var path: String,  //文件路径
+    var fileType: GiftFileType, //礼物文件类型
+    var alphaPosition: AlphaPosition? = null //透明通道位置，MP4类型需要传
+)
+```
+
+2. 播放
+```kotlin
+LiveGiftPlayer.play(lifecycleOwner, giftItem, giftContainer)
+```
+
+3. 监听
+```kotlin
+LiveGiftPlayer.playCallback = object : LiveGiftPlayer.PlayCallback{
+    override fun onStart(gift: GiftPlayItem) {
+        findViewById<TextView>(R.id.tvInfo).text = "开始播放 ${gift.path} 透明通道：${gift.alphaPosition}"
+    }
+
+    override fun onEnd(gift: GiftPlayItem) {
+        findViewById<TextView>(R.id.tvInfo).text = "播放结束 ${gift.path} 透明通道：${gift.alphaPosition}"
+    }
+
+}
+```
