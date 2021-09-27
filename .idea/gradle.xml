@@ -11,7 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AlphaVideoPlayer" />
-            <option value="$PROJECT_DIR$/LiveGiftPlayer" />
+            <option value="$PROJECT_DIR$/GiftPlayer" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

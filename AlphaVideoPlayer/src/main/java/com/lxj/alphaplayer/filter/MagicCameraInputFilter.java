@@ -4,8 +4,8 @@ import android.content.Context;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 
+import com.lxj.alphaplayer.R;
 import com.lxj.alphaplayer.utils.OpenGlUtils;
-import com.seu.magicfilter.R;
 import java.nio.FloatBuffer;
 
 public class MagicCameraInputFilter extends GPUImageFilter {

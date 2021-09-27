@@ -3,10 +3,10 @@ package com.lxj.alphaplayer.filter;
 import android.content.Context;
 import android.opengl.GLES20;
 
+import com.lxj.alphaplayer.R;
 import com.lxj.alphaplayer.utils.OpenGlUtils;
 import com.lxj.alphaplayer.utils.Rotation;
 import com.lxj.alphaplayer.utils.TextureRotationUtil;
-import com.seu.magicfilter.R;
 import javax.microedition.khronos.opengles.GL10;
 
 public class VideoMaskFilter extends GPUImageFilter {

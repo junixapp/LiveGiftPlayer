@@ -12,11 +12,10 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Surface;
 
+import com.lxj.alphaplayer.R;
 import com.lxj.alphaplayer.filter.MagicCameraInputFilter;
 import com.lxj.alphaplayer.filter.VideoMaskFilter;
 import com.lxj.alphaplayer.utils.OpenGlUtils;
-import com.seu.magicfilter.R;
-
 import java.io.IOException;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
