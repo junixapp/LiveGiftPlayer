@@ -1,20 +1,22 @@
 package com.lxj.livegiftplayerdemo
 
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.FrameLayout
-import android.widget.TextClock
-import android.widget.TextView
+import android.widget.*
+import androidx.vectordrawable.graphics.drawable.Animatable2Compat
 import com.blankj.utilcode.util.FileUtils
 import com.blankj.utilcode.util.LogUtils
 import com.blankj.utilcode.util.ResourceUtils
 import com.blankj.utilcode.util.ToastUtils
+import com.github.penfeizhou.animation.webp.WebPDrawable
 import com.lxj.alphaplayer.view.AlphaPosition
 import com.lxj.livegiftplayer.GiftFileType
 import com.lxj.livegiftplayer.GiftPlayItem
 import com.lxj.livegiftplayer.LiveGiftPlayer
+import com.lxj.livegiftplayer.WebpGiftPlayView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
