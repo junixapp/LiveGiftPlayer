@@ -7,6 +7,9 @@
 - 支持WEBP格式
 - 实现Lifecycle自动释放资源
 
+# 效果
+![](img/demo.gif)
+
 # 依赖
 
 [![](https://jitpack.io/v/li-xiaojun/LiveGiftPlayer.svg)](https://jitpack.io/#li-xiaojun/LiveGiftPlayer)
