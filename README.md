@@ -42,3 +42,6 @@ LiveGiftPlayer.playCallback = object : LiveGiftPlayer.PlayCallback{
 
 }
 ```
+
+# 注意
+1. WEBP格式动画在低端机性能较低，可能会出现卡顿现象
